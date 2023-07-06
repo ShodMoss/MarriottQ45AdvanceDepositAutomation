@@ -13,7 +13,7 @@ int main() {
         std::cin >> numbers[i];
     }
 
-    double sum = 0.0;
+    float sum = 0.00;
     for (int i = 0; i < X; i++) {
         double result = (numbers[i] * 0.14) + numbers[i] + 0.34;
         sum += result;
